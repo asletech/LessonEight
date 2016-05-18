@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         addListenerOnButton();
     }
 
-    //This is a test
+    //This is a test fever
     public void addListenerOnButton(){
         pass_word = (EditText) findViewById(R.id.editText);
         button_sbm = (Button)findViewById(R.id.button);
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         Toast.makeText(
-                                MainActivity.this, pass_word.getText(),Toast.LENGTH_SHORT
+                                MainActivity.this, pass_word.getText(),Toast.LENGTH_LONG
                         ).show();
                     }
                 }
